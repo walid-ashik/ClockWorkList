@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/add_guest"
+        android:title="Guest Add"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_person_add"/>
+
+    <item
+        android:id="@+id/summery_of_event"
+        android:title="Summary"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/action_qr_generator"
+        android:title="Create QR code"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/action_guests_from_code"
+        android:title="Guests From QR Code"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/action_edit_event"
+        android:title="Edit Event"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/action_analytics"
+        android:title="Analytics"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/action_delete_event"
+        android:title="Delete Event"
+        app:showAsAction="never"
+        />
+
+</menu>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:id="@+id/analytics_linear_layout"
+    android:background="@android:color/white"
+    tools:context="clockworktt.gaby.com.AnalyticsEvent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="vertical"
+        android:paddingBottom="5dp"
+        android:paddingTop="20dp">
+
+        <TextView
+            android:id="@+id/analytics_event_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Event Name: "
+            android:textAllCaps="false"
+            android:textColor="@color/almostWhite"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/analytics_event_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Event Date: "
+            android:textAllCaps="false"
+            android:textColor="@color/almostWhite"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/analytics_event_invited"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Total Tickets: "
+            android:textAllCaps="false"
+            android:textColor="@color/almostWhite"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/download_pdf"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@color/colorPrimaryDark"
+            android:drawableRight="@drawable/ic_arrow_downward"
+            android:gravity="right|center_horizontal|center_vertical"
+            android:paddingRight="10dp"
+            android:text="Download pdf"
+            android:textAllCaps="false"
+            android:textColor="@color/almostWhite" />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/analytics_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

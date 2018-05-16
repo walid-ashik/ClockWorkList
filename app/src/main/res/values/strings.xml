@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Clockwork List</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string-array name="event_days">
+        <item>1 day</item>
+        <item>2 days</item>
+        <item>3 days</item>
+        <item>4 days</item>
+        <item>5 days</item>
+        <item>6 days</item>
+        <item>7 days</item>
+    </string-array>
+
+    <string-array name="event_types">
+        <item>Charity &amp; Non Profit</item>
+        <item>Corporate Event</item>
+        <item>Other Type Of Event</item>
+        <item>Private Party</item>
+        <item>Promotional Event</item>
+        <item>School or Colleges</item>
+        <item>Trade Show &amp; Conference</item>
+        <item>Wedding</item>
+    </string-array>
+
+    <string-array name="number_of_guests">
+        <item>Number Of Guests?</item>
+        <item>50</item>
+        <item>100</item>
+        <item>200</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>3000</item>
+        <item>5000</item>
+        <item>10000</item>
+        <item>>10000</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

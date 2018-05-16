@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="clockworktt.gaby.com.UploadCsvActivity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:gravity="center"
+        android:background="@color/colorPrimaryDark">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/event_image_icon"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center"
+            android:elevation="3dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/app_icon_circle" />
+
+        <Button
+            android:id="@+id/event_image_button"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/stroke_white_bg"
+            android:elevation="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Set Event Icon"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/upload_csv_guest_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="120dp"
+        android:background="@drawable/stroke_oval_bg"
+        android:elevation="5dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Upload Your Guest List"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimaryDark" />
+
+
+</FrameLayout>

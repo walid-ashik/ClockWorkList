@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppThemeNoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="elevation">0dp</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="loginErrorToastColor">
+        <item name="colorBackground">#ea2525</item>
+        <item name="textColor">#dadada</item>
+        <item name="iconLeft">@drawable/ic_warning</item>
+    </style>
+
+    <style name="reset_password_sent_toast">
+        <item name="colorBackground">#11af5b</item>
+        <item name="textColor">#dadada</item>
+        <item name="iconLeft">@drawable/ic_check</item>
+    </style>
+
+    <style name="uploadedToDatabase">
+        <item name="colorBackground">#acacac</item>
+        <item name="textColor">#FF000000</item>
+        <item name="iconLeft">@drawable/ic_check</item>
+    </style>
+
+</resources>

@@ -1,0 +1,23 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="clockworktt.gaby.com.ArrivedFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/arrived_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <ProgressBar
+        android:id="@+id/arrived_guest_list_progress"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:visibility="visible"
+        android:layout_gravity="center"
+        />
+
+</FrameLayout>
